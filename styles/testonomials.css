@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: clip;
+}
+/*Header session*/
+.header a{
+    color:whitesmoke;
+}
+.header a:hover{
+    color:white;
+    text-decoration: underline;
+    transition:ease-in-out 0.5s;
+    font-size: large;
+}
+/*photo text session*/
+#vid-par{
+    position: relative;
+    width:100w; 
+    height:100vh;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+#my-vid{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/*feedback part*/
+.one,.three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:10px;
+}
+
+.two,.four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:10px;
+    background-color: #e1e0ee;
+    border-radius: 20px;
+}
+
+.text{
+    flex-wrap: wrap;
+}
+.feedback .image{
+    margin-top: 30px;
+    color:dimgray;
+}
+      /*Footer session*/
+      .mainfooter{
+        background-color:rgb(30, 30, 30);
+        margin-top: 10px;
+    }
+    
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:rgb(30, 30, 30);
+    }
+    .footer .mail,.phonenumber{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .designer{
+        background-color:rgb(30, 30, 30);
+        flex-wrap: wrap;
+    }
+    .designer a{
+        color:whitesmoke;
+        text-decoration: none;
+    }
+    video{
+      border-radius: 20px;
+      height:185px;
+    }
+    .videotestonomials1{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .videotestonomials3{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .videotestonomials2{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .videotestonomials2 video{
+      border-radius: 20px;
+      height:300px;
+    }
+    .socialmedia img{
+        height:35px;
+    }
+    
